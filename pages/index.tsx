@@ -10,7 +10,7 @@ export default function Home() {
     return text;
   }
 
-  const client_id = "f46f539986434d16a3b90e7a01bc8a72";
+  const client_id = "MY_CLIENT_ID";
   const redirect_uri = "http://localhost:3000/callback";
   const scope = "user-read-private user-read-email";
   const state = generateRandomString(16);

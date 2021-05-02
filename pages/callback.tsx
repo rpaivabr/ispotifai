@@ -72,8 +72,8 @@ export default Callback;
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const redirect_uri = "http://localhost:3000/callback";
-  const client_id = "f46f539986434d16a3b90e7a01bc8a72";
-  var client_secret = "013741d3776a496f82c13f0514a6dc3a";
+  const client_id = "MY_CLIENT_ID";
+  const client_secret = "MY_CLIENT_SECRET";
 
   const token = await fetch("https://accounts.spotify.com/api/token", {
     method: "POST",
